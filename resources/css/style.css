@@ -73,9 +73,9 @@ div {
 }
 
 .main-story .img-content {
-  background-image: url(resources/images/img-story-main.png);
+  background-image: url(./resources/images/img-story-main.png);
   text-align: left;
-  
+
 }
 
 .img-content h4 {
