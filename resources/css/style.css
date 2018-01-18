@@ -62,6 +62,8 @@ div {
 
 .column.large {
   width: 630px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .column.medium {
@@ -94,9 +96,6 @@ div {
 
 .articles {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: row;
 }
 
 .narrative1 {
