@@ -72,11 +72,11 @@ div {
   width: 240px;
 }
 
-.main-story {
+.main-story .img-content {
   background-image: url(./resources/images/img-story-main.png);
 }
 
-.main-story h4 {
+.img-content h4 {
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
