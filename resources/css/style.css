@@ -48,7 +48,8 @@ div {
 
 .main-container {
   display: flex;
-  width: 100%
+  width: 1232px;
+  margin: 0 auto 78px auto;
   padding-top: 116px;
 }
 
