@@ -82,3 +82,20 @@ div {
   font-size: 40px;
   color: white;
 }
+
+.earth-story .img-content {
+  background-image: url("./resources/images/img-story-2.png");
+}
+
+.img-content span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
