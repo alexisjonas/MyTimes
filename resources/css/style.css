@@ -79,13 +79,14 @@ div {
 
 .earth-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  text-align: center;
 }
 
 .research-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
 }
 
-.cat-story .img-content {
+.cats-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
 }
 
@@ -102,6 +103,7 @@ h4 {
   font-size: 30px;
   color: white;
   height: 300px;
+  top-padding: 15px;
 }
 
 p {
