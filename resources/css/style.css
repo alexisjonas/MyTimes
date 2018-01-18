@@ -50,7 +50,7 @@ div {
   display: flex;
   width: 1232px;
   margin: 0 auto 78px auto;
-  padding-top: 116px;
+  padding-top: 300px;
 }
 
 .column {
@@ -70,4 +70,15 @@ div {
 
 .column.small {
   width: 240px;
+}
+
+.main-story {
+  background-image: url(./resources/images/img-story-main.png);
+}
+
+.main-story h4 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
