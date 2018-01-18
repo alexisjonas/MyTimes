@@ -99,26 +99,30 @@ div {
 
 .narrative1 {
   order: 1;
-  width: 300px;
-  height: 300px;
+  width: 296px;
+  height: 296px;
+  display: inline-block;
 }
 
 .earth-story {
   order: 3;
-  width: 300px;
-  height: 300px;
+  width: 296px;
+  height: 296px;
+  display: inline-block;
 }
 
 .narrative2 {
   order: 2;
-  width: 300px;
-  height: 300px;
+  width: 296px;
+  height: 296px;
+  display: inline-block;
 }
 
 .research-story {
   order: 4;
-  width: 300px;
-  height: 300px;
+  width: 296px;
+  height: 296px;
+  display: inline-block;
 }
 
 h4 {
