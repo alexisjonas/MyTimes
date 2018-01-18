@@ -50,7 +50,7 @@ div {
   display: flex;
   width: 1232px;
   margin: 0 auto 78px auto;
-  padding-top: 300px;
+  padding-top: 116px;
 }
 
 .column {
@@ -74,7 +74,7 @@ div {
 
 .main-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-  text-align: left;
+  text-align: center;
 }
 
 .earth-story .img-content {
@@ -84,10 +84,38 @@ div {
 
 .research-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  text-align: center;
 }
 
 .cats-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  text-align: center;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.narrative1 {
+  order: 1;
+  width: 300px;
+}
+
+.earth-story {
+  order: 3;
+  width: 300px;
+}
+
+.narrative2 {
+  order: 2;
+  width: 300px;
+}
+
+.research-story {
+  order: 4;
+  width: 300px;
 }
 
 h4 {
@@ -106,7 +134,7 @@ h4 {
   top-padding: 15px;
 }
 
-p {
+p, h2 {
   font-family: Georgia;
   font-size: 17px;
   color: black;
