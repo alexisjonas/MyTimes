@@ -73,21 +73,27 @@ div {
 }
 
 .main-story .img-content {
-  background-image: url(./resources/images/img-story-main.png);
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
   text-align: left;
-
-}
-
-.img-content h4 {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 40px;
-  color: white;
 }
 
 .earth-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  height: 80px;
+}
+
+.research-story .img-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.cat-story .img-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+h4 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 .img-content {
