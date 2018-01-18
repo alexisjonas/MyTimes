@@ -72,8 +72,8 @@ div {
   width: 240px;
 }
 
-.main-story .img-content {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+.main-story.img-content {
+  background-image: url("resources/images/img-story-main.png");
 }
 
 .img-content h4 {
@@ -83,7 +83,7 @@ div {
   color: white;
 }
 
-.earth-story .img-content {
+.earth-story.img-content {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 }
 
