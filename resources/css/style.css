@@ -101,21 +101,25 @@ div {
 .narrative1 {
   order: 1;
   width: 300px;
+  height: 300px;
 }
 
 .earth-story {
   order: 3;
   width: 300px;
+  height: 300px;
 }
 
 .narrative2 {
   order: 2;
   width: 300px;
+  height: 300px;
 }
 
 .research-story {
   order: 4;
   width: 300px;
+  height: 300px;
 }
 
 h4 {
