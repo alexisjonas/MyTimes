@@ -13,12 +13,16 @@ header {
 }
 
 .logo {
+  display: flex;
   padding-left: 30px;
+  align-items: center;
+  flex-grow: 1;
 }
 
 header nav {
   padding-right: 40px;
 }
+
 nav span {
   display: inline-block;
   padding: 20px 10px;
@@ -44,10 +48,12 @@ div {
 
 .main-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .column {
   display: flex;
+  flex-direction: column;
 }
 
 .column.large {
