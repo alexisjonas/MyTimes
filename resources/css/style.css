@@ -74,22 +74,18 @@ div {
 
 .main-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-  text-align: center;
 }
 
 .earth-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  text-align: center;
 }
 
 .research-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-  text-align: center;
 }
 
 .cats-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
-  text-align: center;
 }
 
 .articles {
@@ -138,7 +134,10 @@ h4 {
   font-size: 30px;
   color: white;
   height: 300px;
-  top-padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 p {
