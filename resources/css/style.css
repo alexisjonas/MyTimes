@@ -87,13 +87,15 @@ div {
 
 .earth-story .img-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 80px;
 }
 
-.img-content span {
+.img-content {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  height: 300px;
 }
 
 p {
