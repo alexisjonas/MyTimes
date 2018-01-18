@@ -96,6 +96,7 @@ div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 .narrative1 {
@@ -134,7 +135,7 @@ h4 {
   top-padding: 15px;
 }
 
-p, h2 {
+p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
