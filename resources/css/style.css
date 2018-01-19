@@ -154,14 +154,14 @@ p {
   color: black;
 }
 
-.list {
+.newbites .list {
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
-  border-top: 1px solid black;
   border-bottom: 1px solid black;
-  margin: 0;
+  padding: 11px 20px;
+  display: block;
 }
 
 .newbites h3 {
