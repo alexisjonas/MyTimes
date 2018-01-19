@@ -57,7 +57,6 @@ div {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
-  justify-content: center;
 }
 
 .column.large {
@@ -92,12 +91,14 @@ div {
 .articles {
   display: flex;
   justify-content: space-between;
+  margin-top; 17px;
 }
 
 .section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 300px;
+  height: 250px;
 }
 
 .img-content {
