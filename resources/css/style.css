@@ -98,10 +98,14 @@ a {
   display: flex;
   flex-direction: column;
   width: 300px;
-  height: 250px;
 
 }
-
+.story {
+  height: 250px;
+}
+.article {
+  margin-top: 16px;
+}
 .img-content {
 
   display: flex;
