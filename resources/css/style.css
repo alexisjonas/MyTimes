@@ -41,7 +41,7 @@ header nav {
 /* universal styles */
 body {
   margin: 0;
-  font-family: Georgia;
+  font-family: "Georgia", serif;
   font-size: 17px;
   color: black;
 }
@@ -66,7 +66,7 @@ nav span {
 .articles {
   display: flex;
   justify-content: space-between;
-  margin-top; 17px;
+  margin-top: 17px;
 }
 
 .section {
@@ -171,6 +171,9 @@ nav span {
   margin-bottom: 41px;
 }
 
+.list span {
+  padding-left: 11px;
+}
 footer {
   display: flex;
   flex-direction: column;
@@ -195,7 +198,7 @@ footer .title {
 }
 
 footer nav {
-  display: in-line block;
+  display: inline-block;
   padding-left: 25px;
 
 }
