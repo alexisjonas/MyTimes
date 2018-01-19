@@ -100,26 +100,30 @@ div {
 
 .narrative1 {
   order: 1;
-  width: 250px;
+  width: 200px;
   display: inline-block;
+  align-items: center;
 }
 
 .earth-story {
   order: 3;
-  width: 250px;
+  width: 200px;
   display: inline-block;
+  align-items: center;
 }
 
 .narrative2 {
   order: 2;
-  width: 250px;
+  width: 200px;
   display: inline-block;
+  align-items: center;
 }
 
 .research-story {
   order: 4;
-  width: 250px;
+  width: 200px;
   display: inline-block;
+  align-items: center;
 }
 
 h4 {
