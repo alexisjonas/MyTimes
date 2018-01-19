@@ -70,6 +70,10 @@ div {
 
 .column.small {
   width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .main-story .img-content {
@@ -91,6 +95,7 @@ div {
 .articles {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .narrative1 {
@@ -144,4 +149,19 @@ p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.newbites p {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-top: 1px solid black
+  border-bottom: 1px solid black
+  margin: 0;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
 }
